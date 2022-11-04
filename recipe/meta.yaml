@@ -23,6 +23,7 @@ requirements:
     - filelock ~=3.7
     - idna ~=3.3
     - python >=3.6
+    - typing-extensions ~=4.4
 
 test:
   imports:

@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://git.ksol.io/karolyi/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: d043f6af4bc31b117d1d30bbfc5a5f6b293ec32acd6bc5d21ca42dd86c145d60
 
 build:
